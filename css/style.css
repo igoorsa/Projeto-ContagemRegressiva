@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+body{
+    width: 100%;
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("img/capa.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.221),rgba(0, 0, 0, 0.221)100%),  url('img/capa.jpeg') ;
+    background-size: cover;
+}
+
+.cabecalho{
+    margin-top: 40%;
+    margin-left: 30%;
+    width: 500px;
+   
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 68, 255, 0.724);
+    margin-bottom: 10%;
+}
+
+.relogio{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 33px ;
+}
+.text{
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+
+.difi{
+    display: flex;
+    color: rgba(0, 0, 0, 0.662);
+    margin-left: 1%;
+    justify-content: space-around;
+    align-items: center;
+}
+.dias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 68, 255, 0.724);
+} 
+.relogio{
+    flex-direction: column;
+}
+
+span{
+    
+    font-size: 60px;
+}
+
+.detalhes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+    
+}
+
+
