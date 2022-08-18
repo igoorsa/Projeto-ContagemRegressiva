@@ -12,9 +12,9 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-image: url("img/capa.jpeg");
-    background: linear-gradient(rgba(0, 0, 0, 0.221),rgba(0, 0, 0, 0.221)100%),  url('img/capa.jpeg') ;
+    background-image: url("../img/capa.jpeg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .cabecalho{
@@ -88,4 +88,15 @@ span{
     
 }
 
+@media (max-width:920px){
+    .cabecalho{
+        margin-left: 20px;
+    }
+}
+@media (min-width:1500px){
+    .cabecalho{
+        margin-top: 60%;
+        margin-left:80%;
+    }
+}
 
